@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Edit } from "./Edit";
 import { Card, CardTitle, CardSubtitle, CardBody, Button } from "reactstrap";
+import "../assets/css/index.css"
+
 
 const MultiTodo = () => {
     const [tasks, setTasks] = useState([{ taskData: "" }]);
@@ -138,7 +140,7 @@ const MultiTodo = () => {
                         key={index}
                         className="mx-auto my-3 sm:w-full md:w-1/2 sm:mx-5  "
                     >
-                        <Card className="hover:border-black focus:border-black shadow-md">
+                        <Card className="hover:border-black focus:border-black shadow-lg">
                             <CardBody>
                                 <CardTitle
                                     tag="h3"

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import "../assets/css/index.css"
+
 
 export const Edit = ({ modal, toggle, update, data }) => {
     const [inputList, setInputList] = useState([{ taskData: "" }]);
